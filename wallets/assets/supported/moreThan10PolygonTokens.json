@@ -1,0 +1,213 @@
+{
+	"data": [{
+		"id": "POL-AMOY",
+		"code": "POL-AMOY",
+		"currency": "POL",
+		"name": "Polygon Amoy",
+		"blockchain": "polygon",
+		"network": "amoy",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "USDC-POLYGON-AMOY",
+		"code": "USDC-POLYGON-AMOY",
+		"currency": "USDC",
+		"name": "USDC (AMOY)",
+		"blockchain": "polygon",
+		"network": "amoy",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "SOL-DEVNET",
+		"code": "SOL-DEVNET",
+		"currency": "SOL",
+		"name": "Solana Devnet",
+		"blockchain": "solana",
+		"network": "devnet",
+		"decimals": 9,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "XTZ-GHOSTNET",
+		"code": "XTZ-GHOSTNET",
+		"currency": "XTZ",
+		"name": "Tezos Ghostnet",
+		"blockchain": "tezos",
+		"network": "ghostnet",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "ETH-HOLESKY",
+		"code": "ETH-HOLESKY",
+		"currency": "ETH",
+		"name": "Ethereum Holesky",
+		"blockchain": "ethereum",
+		"network": "holesky",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "ETH-BASE-SEPOLIA",
+		"code": "ETH-BASE-SEPOLIA",
+		"currency": "ETH",
+		"name": "ETH Base (sepolia)",
+		"blockchain": "base",
+		"network": "sepolia",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "USDC-BASE-SEPOLIA",
+		"code": "USDC-BASE-SEPOLIA",
+		"currency": "USDC",
+		"name": "USDC (Base Sepolia)",
+		"blockchain": "base",
+		"network": "sepolia",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "ETH-SEPOLIA",
+		"code": "ETH-SEPOLIA",
+		"currency": "ETH",
+		"name": "Ethereum Sepolia",
+		"blockchain": "ethereum",
+		"network": "sepolia",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "USDC-SEPOLIA",
+		"code": "USDC-SEPOLIA",
+		"currency": "USDC",
+		"name": "USD Coin (Sepolia)",
+		"blockchain": "ethereum",
+		"network": "sepolia",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": "ETH-SEPOLIA"
+	}, {
+		"id": "TRX-SHASTA",
+		"code": "TRX-SHASTA",
+		"currency": "TRX",
+		"name": "Tron Shasta",
+		"blockchain": "tron",
+		"network": "shasta",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "USDT-TRC20-SHASTA",
+		"code": "USDT-TRC20-SHASTA",
+		"currency": "USDT",
+		"name": "Tether Shasta",
+		"blockchain": "tron",
+		"network": "shasta",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": "TRX-SHASTA"
+	}, {
+		"id": "BNBSC-TESTNET",
+		"code": "BNBSC-TESTNET",
+		"currency": "BNB",
+		"name": "Binance Coin (BEP20) Testnet",
+		"blockchain": "binance-smart-chain",
+		"network": "testnet",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "BUSD-BEP20-TESTNET",
+		"code": "BUSD-BEP20-TESTNET",
+		"currency": "BUSD",
+		"name": "Binance USD (BEP20) Testnet",
+		"blockchain": "binance-smart-chain",
+		"network": "testnet",
+		"decimals": 18,
+		"tagNeeded": false,
+		"subAssetOf": "BNBSC-TESTNET"
+	}, {
+		"id": "BTC-TESTNET",
+		"code": "BTC-TESTNET",
+		"currency": "BTC",
+		"name": "Bitcoin Testnet",
+		"blockchain": "bitcoin",
+		"network": "testnet",
+		"decimals": 8,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "BCH-TESTNET",
+		"code": "BCH-TESTNET",
+		"currency": "BCH",
+		"name": "Bitcoin Cash Testnet",
+		"blockchain": "bitcoin-cash",
+		"network": "testnet",
+		"decimals": 8,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "ADA-TESTNET",
+		"code": "ADA-TESTNET",
+		"currency": "ADA",
+		"name": "Cardano Testnet",
+		"blockchain": "cardano",
+		"network": "testnet",
+		"decimals": 6,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "DOGE-TESTNET",
+		"code": "DOGE-TESTNET",
+		"currency": "DOGE",
+		"name": "Dogecoin Testnet",
+		"blockchain": "dogecoin",
+		"network": "testnet",
+		"decimals": 8,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "LTC-TESTNET",
+		"code": "LTC-TESTNET",
+		"currency": "LTC",
+		"name": "Litecoin Testnet",
+		"blockchain": "litecoin",
+		"network": "testnet",
+		"decimals": 8,
+		"tagNeeded": false,
+		"subAssetOf": null
+	}, {
+		"id": "XRP-TESTNET",
+		"code": "XRP-TESTNET",
+		"currency": "XRP",
+		"name": "Ripple Testnet",
+		"blockchain": "ripple",
+		"network": "testnet",
+		"decimals": 6,
+		"tagNeeded": true,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "XLM-TESTNET",
+		"code": "XLM-TESTNET",
+		"currency": "XLM",
+		"name": "Stellar Testnet",
+		"blockchain": "stellar",
+		"network": "testnet",
+		"decimals": 7,
+		"tagNeeded": true,
+		"subAssetOf": "POL-AMOY"
+	}, {
+		"id": "GRAM-TESTNET",
+		"code": "GRAM-TESTNET",
+		"currency": "GRAM",
+		"name": "GRAM Testnet",
+		"blockchain": "ton",
+		"network": "testnet",
+		"decimals": 9,
+		"tagNeeded": true,
+		"subAssetOf": "POL-AMOY"
+	}]
+}
