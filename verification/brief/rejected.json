@@ -1,0 +1,89 @@
+{
+	"data": {
+		"status": 2,
+		"email": "ma+rejected2&135642@paybis.invalid",
+		"comment": null,
+		"fields": [{
+			"name": "First name",
+			"status": 1,
+			"slug": "first-name",
+			"group": "personal-information",
+			"value": "John",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "John"
+		}, {
+			"name": "Last name",
+			"status": 1,
+			"slug": "last-name",
+			"group": "personal-information",
+			"value": "Mock-Doe",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "Mock-Doe"
+		}, {
+			"name": "Postal\/ZIP code",
+			"status": 1,
+			"slug": "postalzip-code",
+			"group": "address-verification",
+			"value": "1234",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "1234"
+		}, {
+			"name": "Country",
+			"status": 1,
+			"slug": "address-country-code",
+			"group": "address-verification",
+			"value": "GR",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "Greece"
+		}, {
+			"name": "City",
+			"status": 1,
+			"slug": "address-city",
+			"group": "address-verification",
+			"value": "Test",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "Test"
+		}, {
+			"name": "Street",
+			"status": 1,
+			"slug": "street",
+			"group": "address-verification",
+			"value": "Trst",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "Trst"
+		}, {
+			"name": "Document Type",
+			"status": 1,
+			"slug": "document-type",
+			"group": "personal-information",
+			"value": "ID",
+			"errorMessage": null,
+			"hint": "Type of the document that will be uploaded during this verification.",
+			"formattedValue": "Identity Card"
+		}, {
+			"name": "Document Expiration Date",
+			"status": 1,
+			"slug": "document-expiration-date",
+			"group": "personal-information",
+			"value": "2027-05-23",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "2027-05-23"
+		}, {
+			"name": "Document Country",
+			"status": 1,
+			"slug": "document-country",
+			"group": "personal-information",
+			"value": "GR",
+			"errorMessage": null,
+			"hint": null,
+			"formattedValue": "GR"
+		}]
+	}
+}
