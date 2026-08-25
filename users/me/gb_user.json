@@ -1,0 +1,15 @@
+{
+	"data": {
+		"id": 626136,
+		"email": "ma+uk11&135642@paybis.invalid",
+		"language": "en",
+		"firstName": null,
+		"lastName": null,
+		"country": "GB",
+		"phone": "+375000000",
+		"allowWebWallets": false,
+		"companyName": null,
+		"userGroup": "client",
+		"allowWebWalletsByUserCountry": true
+	}
+}
