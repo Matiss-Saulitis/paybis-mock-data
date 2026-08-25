@@ -1,0 +1,89 @@
+{
+	"data": {
+		"status": 3,
+		"email": "qa+urverification&135642@paybis.invalid",
+		"comment": null,
+		"fields": [{
+			"name": "First name",
+			"status": 1,
+			"slug": "first-name",
+			"group": "personal-information",
+			"value": "AGATHA",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "AGATHA"
+		}, {
+			"name": "Last name",
+			"status": 1,
+			"slug": "last-name",
+			"group": "personal-information",
+			"value": "AGUEDA SMITH",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "AGUEDA SMITH"
+		}, {
+			"name": "Postal\/ZIP code",
+			"status": 1,
+			"slug": "postalzip-code",
+			"group": "address-verification",
+			"value": "67679",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "67679"
+		}, {
+			"name": "Country",
+			"status": 1,
+			"slug": "address-country-code",
+			"group": "address-verification",
+			"value": "LV",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "Latvia"
+		}, {
+			"name": "City",
+			"status": 1,
+			"slug": "address-city",
+			"group": "address-verification",
+			"value": "fggffg",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "fggffg"
+		}, {
+			"name": "Street",
+			"status": 1,
+			"slug": "street",
+			"group": "address-verification",
+			"value": "gfgff",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "gfgff"
+		}, {
+			"name": "Document Type",
+			"status": 1,
+			"slug": "document-type",
+			"group": "personal-information",
+			"value": "ID",
+			"errorMessage": "Incorrect document type",
+			"hint": "Type of the document that will be uploaded during this verification.",
+			"formattedValue": "Identity Card"
+		}, {
+			"name": "Document Expiration Date",
+			"status": 1,
+			"slug": "document-expiration-date",
+			"group": "personal-information",
+			"value": "2030-02-12",
+			"errorMessage": null,
+			"hint": "",
+			"formattedValue": "2030-02-12"
+		}, {
+			"name": "Document Country",
+			"status": 1,
+			"slug": "document-country",
+			"group": "personal-information",
+			"value": "ES",
+			"errorMessage": null,
+			"hint": null,
+			"formattedValue": "ES"
+		}]
+	}
+}
