@@ -1,2 +1,6 @@
 # paybis-mock-data
-Mocked API response data for QA testing
+
+Mock API response data for QA testing.
+
+Documentation for Sumsub:  
+https://docs.sumsub.com/docs/verification-document-templates
