@@ -1,0 +1,167 @@
+{
+	"data": {
+		"settings": {
+			"signaturePublicKey": {
+				"publicKey": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEG1tlwk145wvPIZShGiGEOzGG7tyC\nVxqFyPMDqovorixkl8OdFVZJuCtTt9Q88H1yEXL\/gg3oZ2+VdNNku8gZcg==\n-----END PUBLIC KEY-----\n",
+				"algorithm": "secp256r1"
+			},
+			"exchangeDefaults": {
+				"fiat": {
+					"amounts": {
+						"USD": "400.00",
+						"EUR": "400.00",
+						"GBP": "300.00"
+					},
+					"countryMap": {
+						"EUR": ["FR", "DE"],
+						"USD": ["US"]
+					},
+					"default": "USD"
+				},
+				"flow": {
+					"buy": {
+						"from": {
+							"assetId": null,
+							"amount": null,
+							"method": "credit-card"
+						},
+						"to": {
+							"assetId": "GRAVITY",
+							"amount": null,
+							"method": null
+						}
+					},
+					"sell": {
+						"from": {
+							"assetId": "GRAM-TESTNET",
+							"amount": null,
+							"method": null
+						},
+						"to": {
+							"assetId": null,
+							"amount": null,
+							"method": "credit-card-out"
+						}
+					},
+					"swap": {
+						"from": {
+							"assetId": "POL-AMOY",
+							"amount": 20,
+							"method": null
+						},
+						"to": {
+							"assetId": "SOL-DEVNET",
+							"amount": null,
+							"method": null
+						}
+					}
+				},
+				"flowOverrides": [{
+					"when": {
+						"country": ["US"]
+					},
+					"patch": {
+						"sell": {
+							"to": {
+								"method": "mass-pay-credit-card-out"
+							}
+						}
+					}
+				}]
+			},
+			"system": [{
+				"setting": "default_amounts_exchange_form_site",
+				"value": "{\r\n  \"USD\": 200,\r\n  \"EUR\": 200,\r\n  \"CAD\": 300,\r\n  \"GBP\": 200,\r\n  \"AED\": 800,\r\n  \"ARS\": 190000,\r\n  \"AUD\": 400,\r\n  \"AZN\": 400,\r\n  \"BDT\": 23700,\r\n  \"BGN\": 400,\r\n  \"BHD\": 100,\r\n  \"BRL\": 1100,\r\n  \"CHF\": 200,\r\n  \"CLP\": 185000,\r\n  \"COP\": 800000,\r\n  \"CRC\": 104000,\r\n  \"CZK\": 4650,\r\n  \"DKK\": 1400,\r\n  \"DOP\": 11900,\r\n  \"DZD\": 27000,\r\n  \"EGP\": 9900,\r\n  \"GEL\": 600,\r\n  \"HKD\": 1600,\r\n  \"HUF\": 72000,\r\n  \"IDR\": 3060000,\r\n  \"ILS\": 800,\r\n  \"INR\": 16700,\r\n  \"JPY\": 29400,\r\n  \"KES\": 30600,\r\n  \"KRW\": 266000,\r\n  \"KWD\": 100,\r\n  \"MAD\": 2100,\r\n  \"MXN\": 3400,\r\n  \"MYR\": 1000,\r\n  \"NGN\": 310000,\r\n  \"NOK\": 2200,\r\n  \"NZD\": 400,\r\n  \"PEN\": 800,\r\n  \"PHP\": 11500,\r\n  \"PLN\": 800,\r\n  \"QAR\": 800,\r\n  \"RON\": 1000,\r\n  \"SAR\": 800,\r\n  \"SEK\": 2200,\r\n  \"SGD\": 300,\r\n  \"THB\": 7200,\r\n  \"TND\": 700,\r\n  \"TRY\": 6700,\r\n  \"TWD\": 6500,\r\n  \"UAH\": 8300,\r\n  \"UYU\": 8100,\r\n  \"VND\": 4900000,\r\n  \"XAF\": 123000,\r\n  \"ZAR\": 3700,\r\n  \"BTC\": 0.002,\r\n  \"ETH\": 0.05,\r\n  \"SOL\": 1,\r\n  \"LTC\": 2,\r\n  \"ADA\": 300,\r\n  \"DOGE\": 800,\r\n  \"POL\": 800,\r\n  \"USDT\": 200,\r\n  \"USDC\": 200\r\n}",
+				"app": "front"
+			}, {
+				"setting": "web-wallets.feature.add-wallet",
+				"value": "1",
+				"app": "front"
+			}, {
+				"setting": "web-wallets.feature.add-wallet-address",
+				"value": "1",
+				"app": "front"
+			}, {
+				"setting": "web-wallets.feature.sell-crypto",
+				"value": "1",
+				"app": "front"
+			}, {
+				"setting": "web-wallets.feature.send-crypto",
+				"value": "1",
+				"app": "front"
+			}],
+			"googlePay": {
+				"allowedPaymentMethods": [{
+					"parameters": {
+						"allowedCardNetworks": ["VISA", "MASTERCARD", "AMEX"],
+						"allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"]
+					},
+					"tokenizationSpecification": {
+						"type": "DIRECT",
+						"parameters": {
+							"protocolVersion": "ECv2",
+							"publicKey": "BDUBorFGC1PMafC3OunA01k+\/nyl12h8qIOD5uXkwVKoCNbiHTGsM\/Hg4ARsdYemIkcpHnXwCDYrKC0iQagdBTk="
+						}
+					}
+				}],
+				"transactionInfo": {
+					"countryCode": "US"
+				},
+				"merchantInfo": {
+					"merchantName": "string",
+					"merchantId": "string"
+				}
+			},
+			"applePay": null
+		},
+		"integrations": {
+			"lokalise": {
+				"token": "a6acca4fb34e16ff56923e72a34a782761ce8d7b",
+				"projectId": "92048657689c9c79246ec8.69873111"
+			},
+			"zendesk": {
+				"ios": {
+					"key": "eyJzZXR0aW5nc191cmwiOiJodHRwczovL3BheWJpcy56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUtXQ1k0NEREQUo2TkIxOFpWRllSNVNSRS5qc29uIn0="
+				},
+				"android": {
+					"key": "eyJzZXR0aW5nc191cmwiOiJodHRwczovL3BheWJpcy56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUtXQ1lQOFRKTVY2RkJXNVJGR1dDMEo2Ui5qc29uIn0="
+				}
+			},
+			"sentry": {
+				"dsn": "https:\/\/31249c2867c758912628d41b11d1fdb9@o4510362602373120.ingest.us.sentry.io\/4510560702038020"
+			},
+			"sift": {
+				"jsKey": "56a1fe0be4b05653e673e43f",
+				"beaconKey": "d782f8bc1e"
+			},
+			"trustly": {
+				"accessId": "string",
+				"merchantId": "string"
+			},
+			"checkout": {
+				"publicKey": "pk_sbox_lfsau4kfif3aquobjuv2in6kki#"
+			},
+			"moengage": {
+				"workspaceId": "RZR2WB46KA28DB8TCUQ53BJ2_DEBUG",
+				"projectId": "",
+				"appId": "RZR2WB46KA28DB8TCUQ53BJ2_DEBUG"
+			},
+			"mixpanel": {
+				"token": "b7bb4b4f06cb94e628a082876c639347"
+			},
+			"appsflyer": {
+				"ios": {
+					"appId": "id111198393",
+					"devKey": "ipViNwuE4xjfGDJ6L5iREb"
+				},
+				"android": {
+					"appId": "com.paybis.debug",
+					"devKey": "C3AQXwghV7uAETiuxnnHXh"
+				}
+			},
+			"nsure": {
+				"appId": "SANDBOX_36HC101EE2WP27X4"
+			}
+		}
+	}
+}
