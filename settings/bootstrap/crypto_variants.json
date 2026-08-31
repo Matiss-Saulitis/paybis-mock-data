@@ -46,7 +46,7 @@
 					"swap": {
 						"from": {
 							"assetId": "POL-AMOY",
-							"amount": 20,
+							"amount": 120,
 							"method": null
 						},
 						"to": {
